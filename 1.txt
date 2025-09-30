@@ -1,0 +1,17 @@
+Check how many databases are in your localhost sever.
+SHOW DATABASES;
+
+Change the database you created new database INFORMATION_TECHNOLOGY.
+CREATE DATABASE INFORMATION_TECHNOLOGY;
+
+CREATE DATABASE INFORMATION_TECHNOLOGY;
+Use INFORMATION_TECHNOLOGY;
+
+Delete the database INFORMATION_TECHNOLOGY.
+DROP DATABASE INFORMATION_TECHNOLOGY;
+
+Create the table (New) with 3 columns (id, name, marks).
+CREATE TABLE New(id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(30), marks INT);
+
+Show all data from above table if you have not inserted data into table (New).
+SELECT * FROM New;
